@@ -1,13 +1,13 @@
 
-
 ![Media Queries Mixins for Sass](http://paranoida.github.com/sass-mediaqueries/images/logo.jpg) BullIE8proof
 
 ---
 
 ### Browser support
 
-Upstream: Only modern browsers that support media queries.
-Bullie8proof: So I've refactored upstream's mixins with [Jake Archibald's no-IE-left-behind](https://github.com/jakearchibald/sass-ie) brilliance.
+__sass-mediaqueries__ (upstream): Only modern browsers that support media queries.
+
+__Bullie8proof__: So I've refactored upstream's mixins with [Jake Archibald's no-IE-left-behind](https://github.com/jakearchibald/sass-ie) brilliance.
 
 ## How to install
 
