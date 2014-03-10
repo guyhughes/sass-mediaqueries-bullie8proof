@@ -1,0 +1,5 @@
+@import "../../_media-queries";
+
+@include fixed-media-query-setup();
+
+@import "layout";

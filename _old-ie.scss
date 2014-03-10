@@ -1,0 +1,17 @@
+/*!
+ * @file _old-ie.scss
+ * @author Jake Archibald
+ * @url https://github.com/jakearchibald/sass-ie
+ * MIT License
+ */
+
+$old-ie: false !default;
+
+@mixin old-ie
+{
+  // Only use this content if we're dealing with old IE
+  @if $old-ie
+  {
+    @content
+  }
+}

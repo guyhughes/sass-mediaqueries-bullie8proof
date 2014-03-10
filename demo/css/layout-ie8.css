@@ -1,0 +1,164 @@
+/*!
+ * @file _old-ie.scss
+ * @author Jake Archibald
+ * @url https://github.com/jakearchibald/sass-ie
+ * MIT License
+ */
+/*!
+ * @file _media-queries.scss
+ * @author Guy Hughes
+ *
+ * Upstream Author: Rafal Bromirski
+ * www: http://paranoida.com/
+ * twitter: http://twitter.com/paranoida
+ * dribbble: http://dribbble.com/paranoida
+ * Licensed under a MIT License
+ */
+/*!
+ * @file _old-ie.scss
+ * @author Jake Archibald
+ * @url https://github.com/jakearchibald/sass-ie
+ * MIT License
+ */
+/*!
+ * @file _media-queries.scss
+ * @author Guy Hughes
+ *
+ * Upstream Author: Rafal Bromirski
+ * www: http://paranoida.com/
+ * twitter: http://twitter.com/paranoida
+ * dribbble: http://dribbble.com/paranoida
+ * Licensed under a MIT License
+ */
+/* line 10, ../sass/layout.scss */
+* {
+  -webkit-text-size-adjust: none;
+  -ms-text-size-adjust: none; }
+
+/* line 13, ../sass/layout.scss */
+body {
+  font: 12px Helvetica, Arial, sans-serif;
+  background: white;
+  color: #444444; }
+
+/* line 20, ../sass/layout.scss */
+.content {
+  padding: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  text-shadow: 0 1px 0 #fff; }
+
+/* line 33, ../sass/layout.scss */
+.true, .false {
+  display: inline-block; }
+
+/* line 38, ../sass/layout.scss */
+.true {
+  color: #00c30e; }
+
+/* line 43, ../sass/layout.scss */
+.false {
+  color: #d10013; }
+
+/* line 48, ../sass/layout.scss */
+hr {
+  border: 0;
+  background: #ddd;
+  height: 1px;
+  margin: 10px 0; }
+
+/* line 56, ../sass/layout.scss */
+h1 {
+  color: #000;
+  font-size: 24px; }
+
+/* line 64, ../sass/layout.scss */
+p[class*="attr"] {
+  padding: 3px 0; }
+  /* line 68, ../sass/layout.scss */
+  p[class*="attr"] .true {
+    display: none; }
+
+/* line 86, ../sass/layout.scss */
+p.attr-ipad .true {
+  display: inline-block; }
+/* line 87, ../sass/layout.scss */
+p.attr-ipad .false {
+  display: none; }
+
+/* line 95, ../sass/layout.scss */
+p.attr-ipad-retina .true {
+  display: inline-block; }
+/* line 96, ../sass/layout.scss */
+p.attr-ipad-retina .false {
+  display: none; }
+
+/* line 230, ../sass/layout.scss */
+p.attr-max-width span[class*="max-width"] {
+  display: inline-block;
+  padding-right: 5px;
+  color: #bbb; }
+
+/* line 242, ../sass/layout.scss */
+p.attr-max-width span.max-width-1024 {
+  color: #00c30e; }
+/* line 242, ../sass/layout.scss */
+p.attr-max-width span.max-width-1200 {
+  color: #00c30e; }
+/* line 242, ../sass/layout.scss */
+p.attr-max-width span.max-width-1400 {
+  color: #00c30e; }
+/* line 242, ../sass/layout.scss */
+p.attr-max-width span.max-width-1600 {
+  color: #00c30e; }
+
+/* line 254, ../sass/layout.scss */
+p.attr-min-width span[class*="min-width"] {
+  display: inline-block;
+  padding-right: 5px;
+  color: #bbb; }
+
+/* line 266, ../sass/layout.scss */
+p.attr-min-width span.min-width-320 {
+  color: #00c30e; }
+/* line 266, ../sass/layout.scss */
+p.attr-min-width span.min-width-480 {
+  color: #00c30e; }
+/* line 266, ../sass/layout.scss */
+p.attr-min-width span.min-width-768 {
+  color: #00c30e; }
+
+/* line 277, ../sass/layout.scss */
+p.attr-min-screen-height span[class*="min-screen-heigh"] {
+  display: inline-block;
+  padding-right: 5px;
+  color: #bbb; }
+
+/* line 289, ../sass/layout.scss */
+p.attr-min-screen-height span.min-screen-height-320 {
+  color: #00c30e; }
+/* line 289, ../sass/layout.scss */
+p.attr-min-screen-height span.min-screen-height-480 {
+  color: #00c30e; }
+
+/* line 300, ../sass/layout.scss */
+p.attr-max-screen-height span[class*="max-screen-heigh"] {
+  display: inline-block;
+  padding-right: 5px;
+  color: #bbb; }
+
+/* line 312, ../sass/layout.scss */
+p.attr-max-screen-height span.max-screen-height-768 {
+  color: #00c30e; }
+/* line 312, ../sass/layout.scss */
+p.attr-max-screen-height span.max-screen-height-1024 {
+  color: #00c30e; }
+/* line 312, ../sass/layout.scss */
+p.attr-max-screen-height span.max-screen-height-1200 {
+  color: #00c30e; }
+/* line 312, ../sass/layout.scss */
+p.attr-max-screen-height span.max-screen-height-1400 {
+  color: #00c30e; }
+/* line 312, ../sass/layout.scss */
+p.attr-max-screen-height span.max-screen-height-1600 {
+  color: #00c30e; }

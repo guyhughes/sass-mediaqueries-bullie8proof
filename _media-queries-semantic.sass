@@ -1,0 +1,42 @@
+/*!
+ * @file _media-queries-semantic.sass
+ * @author Guy Hughes
+ */
+
+$mq_large: 1024px
+$mq_medium: 768px
+$mq_small: 320px
+
+
+=screens-at-least($breakpoint)
+  @if $breakpoint == large
+    +min-screen($mq_large)
+      @content
+  @else if $breakpoint == medium
+    +min-screen($mq_medium)
+      @content
+  @else if $breakpoint == small
+    +min-screen($mq_small)
+      @content
+
+=screens($breakpoint)
+  @if $breakpoint == large
+    +min-screen($mq_large)
+      @content
+  @else if $breakpoint == medium
+    +screen($mq_medium, $mq_large)
+      @content
+  @else if $breakpoint == small
+    +max-screen($mq_medium)
+      @content
+
+=screens-at-most($breakpoint)
+  @if $breakpoint == large
+    +min-screen($mq_large)
+      @content
+  @else if $breakpoint == medium
+    +min-screen($mq_medium)
+      @content
+  @else if $breakpoint == small
+    +min-screen($mq_small)
+      @content

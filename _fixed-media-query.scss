@@ -1,0 +1,10 @@
+$fixed-media-query: false !default;
+$fmq-width: 920px !default;
+$fmq-height: 600px !default;
+
+@mixin fixed-media-query-setup($width:920px,$height:600px)
+{
+    $fixed-media-query: true;
+    $fmq-width: $width;
+    $fmq-height: $height;
+}
