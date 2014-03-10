@@ -1,20 +1,19 @@
-![Media Queries Mixins for Sass](http://paranoida.github.com/sass-mediaqueries/images/logo.jpg)
+
+
+![Media Queries Mixins for Sass](http://paranoida.github.com/sass-mediaqueries/images/logo.jpg) BullIE8proof
 
 ---
 
-### View it online: <http://paranoida.github.com/sass-mediaqueries>
+### View upstream online: <http://paranoida.github.com/sass-mediaqueries>
 
 
 Do you like Responsive Web Design? Everyone does!
 Here you can find a collection of useful **media queries mixins** (including iOS devices like iPhones and iPads) for **Sass**.
 
-### Who did it?
-
-Just me - [Rafal Bromirski](http://paranoida.com) - if you want you can follow me on [twitter](https://twitter.com/paranoida) or check my works on [dribbble](http://dribbble.com/paranoida).
-
 ### Browser support
 
-Only modern browsers that support media queries.
+Upstream: Only modern browsers that support media queries.
+Bullie8proof: So I've refactored upstream's mixins with [Jake Archibald's no-IE-left-behind](https://github.com/jakearchibald/sass-ie) brilliance.
 
 ## How to install
 
@@ -23,23 +22,14 @@ Only modern browsers that support media queries.
 Download it or use `curl`:
 
 ```
-curl -O https://raw.github.com/paranoida/sass-mediaqueries/master/_media-queries.scss
+curl -O https://raw.github.com/guyhughes/sass-mediaqueries/master/_{media-queries,old-ie}.scss
 ```
-
-### Or as a [gem](http://github.com/paranoida/sass-mediaqueries-rails) in your Gemfile (inside assets group):
-
-```
-group :assets do
-	...
-	gem 'sass-mediaqueries-rails'
-end
-```
-
 
 Inside your sass/scss file (ie. `application.scss`) add:
 
 ```
 @import "media-queries";
+@import "old-ie";
 ```
 
 
